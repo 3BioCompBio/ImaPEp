@@ -22,7 +22,7 @@ Prediction of binding affinity between a given paratope and epitope can be perfo
 
 - Single-file mode. The user provides the PDB structure of an antibody-antigen complex. For example,
     ```
-    python3 predict.py --sample-id=1a2y --input=1a2y.pdb --chains=BAC
+    python3 predict.py --sample-id=1a14 --input=1a14.pdb --chains=HLN
     ```
 - Batch mode. There is also an option for scoring a large amount of inputted structures in one click. The user is required to assign a folder to the `--input` option which has to contain all the inputted PDB files and a file named job.txt. For each Ab-Ag complex to be scored, one line in the format "pdb_id,chains" is included in job.txt file. For example:
     ```
